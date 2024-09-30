@@ -1,0 +1,29 @@
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+}
+.todoitems img{
+    width: 28px;
+    height: 28px;
+}
+
+.todoitems-container{
+    display: flex;
+}
+
+.todoitems-text{
+      padding-left: 16px;
+      color: #603b3b;
+      font-size: 20px;
+}
+
+.todoitems-wrongicon{
+    cursor: pointer;
+    padding-right: 25px;
+}
+
+.line-through{
+    text-decoration: line-through solid #655f5f 2px;
+}
