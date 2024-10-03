@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './CSS/Todo.css'
 import { useRef } from 'react';
 import { useEffect } from 'react';
-import TodoItems from './TodoItems';
+import TodoItems from './Todoitemsz';
 
 let count = 0;
 const Todo = () => {

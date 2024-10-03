@@ -3,7 +3,7 @@ import noTick from './Assets/noTick_Box.png';
 import doneTick from './Assets/done_tick.jpg';
 import wrongIcon from './Assets/wrong_icon.jpg';
 
-const Todoitems = ({ no, display, text, setTodos}) => {
+const Todoitemsz = ({ no, display, text, setTodos}) => {
 
   const deleteTodo = (no) =>{
     let data = JSON.parse(localStorage.getItem("todos"));
@@ -40,4 +40,4 @@ const Todoitems = ({ no, display, text, setTodos}) => {
   )
 }
 
-export default Todoitems;
+export default Todoitemsz;
